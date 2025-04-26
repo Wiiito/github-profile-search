@@ -1,36 +1,58 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# 🚀 Processo Seletivo AVANTI — Busca de Perfil no GitHub
 
-## Getting Started
+Este projeto foi desenvolvido como parte de um desafio técnico com o objetivo de criar uma aplicação utilizando **React** capaz de buscar e exibir informações de perfis do GitHub, seguindo fielmente um layout pré-definido no Figma.
 
-First, run the development server:
+## 🎯 Objetivo
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+A aplicação permite ao usuário:
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+- Digitar o nome de um perfil do GitHub.
+- Buscar e visualizar informações básicas do usuário.
+- Ser informado em caso de erro (por exemplo, se o usuário não existir).
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+## 🖼 Layout (Figma)
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+O design da aplicação foi seguido conforme o protótipo no Figma:
 
-## Learn More
+🔗 [Acessar Layout no Figma](https://www.figma.com/proto/DqtFxC6312M32mLt8FpJjq/inovation-class?page-id=22%3A2864&node-id=22-4293&viewport=359%2C115%2C0.25&t=SHsEqEgaMrXGMKwv-1&scaling=scale-down-width&content-scaling=fixed&starting-point-node-id=22%3A4293&show-proto-sidebar=1)
 
-To learn more about Next.js, take a look at the following resources:
+## ✅ Funcionalidades
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+- [x] Campo de busca para inserir o nome de usuário do GitHub
+- [x] Botão de busca que consome a API pública do GitHub
+- [x] Exibição de:
+  - Nome do usuário
+  - Foto de perfil
+  - Bio
+- [x] Mensagens de erro personalizadas para perfis não encontrados
+- [x] Estilização completa com base no layout do Figma
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+## 🛠 Tecnologias Utilizadas
 
-## Deploy on Vercel
+- **Next.js** — Framework React para aplicações web modernas com renderização híbrida
+- **Tailwind CSS** — Framework CSS utilitário para estilização ágil e responsiva
+- **GitHub API** — Integração para buscar dados públicos de usuários
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+## 🚧 Como Executar o Projeto
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+1. Clone este repositório:
+   ```bash
+   git clone https://github.com/seu-usuario/nome-do-repo.git
+   ```
+2. Acesse a pasta do projeto:
+   ```bash
+   cd nome-do-repo
+   ```
+3. Instale as dependências:
+   ```bash
+   npm install
+   ```
+4. Inicie o servidor de desenvolvimento:
+   ```bash
+   npm run dev
+   ```
+
+## 💡 Observações
+
+- O foco foi manter a **aderência ao layout**, **clareza visual** e **boa experiência do usuário**.
+- O uso do **Tailwind CSS** garantiu velocidade no desenvolvimento e consistência no design.
